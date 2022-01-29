@@ -25,20 +25,21 @@ body {
 header {
     max-height: 106px;
 }
-.content {
-    margin: 106px 0px 0px 0px;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .container {
+    margin: 0% auto;
     max-width: 840px;
     justify-items: center;
     
 }
 
 .main_text {
+    margin: 110px auto 0 auto;
   text-align: center;
+  background-image: url(../img/background.png) ;
+  background-repeat: no-repeat;  
+background-position: 50% 50%;
+  background-size: 1190px 1064px;
   
 }
 
@@ -63,5 +64,7 @@ margin-bottom: 50px;
 }
 
 .img {
+    margin: 2em 0em;
     border: white 10px solid;
 }
+
