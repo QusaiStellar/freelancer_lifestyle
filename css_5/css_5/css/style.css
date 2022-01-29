@@ -19,21 +19,49 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 24px;
+    background-color: #e8e8e8;
 }
 
 header {
     max-height: 106px;
 }
-
-content.content {
-    background-color: #e8e8e8;
+.content {
+    margin: 106px 0px 0px 0px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-content.container {
-  
+.container {
+    max-width: 840px;
+    justify-items: center;
+    
 }
 
 .main_text {
+  text-align: center;
   
-    background-image: url('img/background.png');
+}
+
+
+.logo {
+    padding: 20px;
+    color: #273d46;
+    font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+
+.donec {
+    font-size: 36px;
+line-height: 50px;
+font-weight: 400;
+color: #273d46;
+margin-bottom: 50px;
+}
+
+.img {
+    border: white 10px solid;
 }
