@@ -29,20 +29,49 @@ header {
 .container {
     margin: 0% auto;
     max-width: 840px;
-    justify-items: center;
-    
+    text-align: center;
+}
+
+.text_container {
+    margin: 0% auto;
+    max-width: 736px;
+    text-align: center; 
 }
 
 .main_text {
     margin: 110px auto 0 auto;
   text-align: center;
-  background-image: url(../img/background.png);
-  background-repeat: no-repeat;  
-background-position: 50% 50%;
-  background-size: 1190px 1064px;
-  
+    max-width: 1190px;
 }
 
+.opacity_text {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 95px;
+line-height: 40px;
+font-weight: 400;
+color: #273d46;
+opacity: 0.8;
+}
+
+.under_main_text {
+    font-size: 24px;
+    text-align: left;
+    margin: 50px auto;
+line-height: 40px;
+font-weight: 400;
+color: #273d46;
+opacity: 0.8;
+}
+
+#background_img {
+display: block;
+margin: 0px auto;
+    position: absolute;
+    z-index: -1;
+    background-size: 1190px 1064px;
+    opacity: 0.2;
+}
 
 .logo {
     padding: 20px;
@@ -64,7 +93,71 @@ margin-bottom: 50px;
 }
 
 .img {
-    margin: 2em 0em;
     border: white 10px solid;
 }
 
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    
+}
+
+.list_item {
+    text-align: left;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;    
+    background-position: left;
+}
+
+#item_1 {
+    margin-left: 40px;
+    font-weight: 400;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+color: #273d46;
+}
+
+#item_2 {
+    margin-left: 40px;
+    font-weight: 400;
+font-style: italic;
+color: #80b7b3;
+}
+
+#item_3 {
+    margin-left: 40px;
+    font-weight: 700;
+color: #273d46;
+}
+
+#item_4 {
+    margin-left: 40px;
+    font-weight: 400;
+text-decoration: line-through;
+color: #273d46;
+}
+
+button {
+    display: block;
+    position: relative;
+    left: 0px;
+    margin: 20px 0;
+    width: 199px;
+height: 44px;
+border-radius: 22px;
+background-color: #80b7b3;
+box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+button span {
+    font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+line-height: normal;
+}
+
+footer {
+    height: 200px;
+}
