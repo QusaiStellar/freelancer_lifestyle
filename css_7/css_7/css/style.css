@@ -1,0 +1,141 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	max-width: 841px;
+	margin: 150px auto;
+	background-color: #e8e8e8;
+	color: #273d46;
+}
+
+.block h1 {
+	font-size: 14px;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+}
+
+
+ul {
+	padding: 24px 0 0 0;
+}
+
+ul li{	
+	line-height: 36px;
+}
+
+ul li::before{
+	content: '';
+	padding: 0 30px 0 0;
+	background: url(../img/check.png) no-repeat left;
+}
+
+ul li:hover {
+	color: red;
+}
+ul li:hover::before{
+	content: '';
+	padding: 0 30px 0 0;
+	background: url(../img/chek_red.png) no-repeat left;
+}
+
+
+
+.top-ul li:first-child {
+	text-decoration: line-through
+}
+
+.top-ul li:nth-child(2) {
+	font-weight: 700;
+}
+
+.top-ul li:nth-child(3) {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.top-ul li:last-child {
+	text-transform: uppercase;
+}
+
+.bottom-ul {
+	padding: 81px 0 0 0;
+}
+
+
+.a-story {
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	margin: 137px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+	padding: 0 30px;
+	background: #81b7b2 ;
+	border-radius: 22px;
+}
+
+.a-story span {
+	padding: 0 27px 0 0;
+	background: url(../img/arrow.png) no-repeat right;
+	opacity: 0.8;
+}
+
+.a-story:hover {
+	background-color: #3a5856;
+}
+
+.a-story:active {
+	background-color: #818181;
+}
+
+.text {
+	width: 766px;
+}
+
+.text p:first-child {
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+	padding: 0 0 43px 0;
+}
+
+.text p:first-child::first-line {
+	color: red;
+}
+
+.text p:last-child {
+	font-size: 18px;
+color: #000000;
+
+line-height: 28px;
+padding-bottom: 50px;
+}
+
+.text p:last-child::first-letter {
+	font-size: 25px;
+line-height: 28px;
+font-weight: 400;
+color: #ff0000;
+}
